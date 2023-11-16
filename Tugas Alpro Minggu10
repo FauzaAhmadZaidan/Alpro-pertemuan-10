@@ -6,3 +6,10 @@ def turn_right():
 while not at_goal():
 #Membuat while loop untuk terus mengulangi kondisi yang ingin diperiksa sebelum mencapai finish
 
+if right_is_clear():
+        turn_right()
+        move()
+#Cek kondisi jika bagian kanan robot karel tidak ada tembok, maka robot belok ke kanan
+
+    elif front_is_clear():
+        move()
