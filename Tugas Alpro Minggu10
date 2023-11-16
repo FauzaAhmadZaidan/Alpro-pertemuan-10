@@ -13,3 +13,8 @@ if right_is_clear():
 
     elif front_is_clear():
         move()
+#Cek kondisi jika bagian depan robot karel tidak ada tembok, maka robot jalan terus 
+
+    elif wall_in_front():
+        turn_left()
+#Cek kondisi jika bagian depan robot karel ada tembok, maka robot belok ke kiri
