@@ -1,0 +1,8 @@
+def turn_right():
+    for i in range(3):
+        turn_left()
+#Membuat function yang di dalamnya ada for loop untuk meminta robot belok kanan sebanyak 3 kali
+
+while not at_goal():
+#Membuat while loop untuk terus mengulangi kondisi yang ingin diperiksa sebelum mencapai finish
+
